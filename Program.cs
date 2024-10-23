@@ -26,6 +26,6 @@ class Program
             maindiagonalSum += cube[i, i, i];
         }
 
-        Console.WriteLine("The sum of the main diagonal is: {mainDiagonalSum}");
+        Console.WriteLine($"The sum of the main diagonal is: {maindiagonalSum}");
     }
 }
