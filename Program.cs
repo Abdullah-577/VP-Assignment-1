@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         int[,,] cube = new int[3, 3, 3];
-        int mainDiagonalSum = 0;
+        int maindiagonalSum = 0;
 
         Console.WriteLine("Enter values for the 3x3x3 cube:");
 
@@ -23,7 +23,7 @@ class Program
 
         for (int i = 0; i < 3; i++)
         {
-            mainDiagonalSum += cube[i, i, i];
+            maindiagonalSum += cube[i, i, i];
         }
 
         Console.WriteLine("The sum of the main diagonal is: {mainDiagonalSum}");
